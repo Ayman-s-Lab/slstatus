@@ -76,7 +76,7 @@ static const struct arg args[] = {
 	/* function format          argument */
     { run_command,          "[ %s ",                vol },
     { run_command,          " %s]",                mic },
-    { run_command,    "[🔆%s]",     "light -G | cut -f1 -d'.'" },
+    { run_command,    "[🔆%s]",     "brightnessctl g" },
 	{ battery_perc,       "[%s%%",              "BAT1"},
 	{ battery_state,       "%s]",              "BAT1"},
 	{ cpu_perc,		 "[%s%%]",       NULL           },
